@@ -24,7 +24,7 @@ Vagrant.configure('2') do |config|
       os.networks           = [{name: 'tenant1_net', address: '10.10.0.14'}]
       os.flavor             = 'm1.small'
       os.image              = 'devops_node'
-      os.server_name        = 'node1'
+      os.server_name        = 'node01'
       os.keypair_name      = 'mpod-key'
       os.ssh_disabled      = 'true'
     end
